@@ -5,7 +5,7 @@
   <properties size='1'>
     <property name='p2.timestamp' value='1'/>
   </properties>
-  <children size='28'>
+  <children size='29'>
 	<child location='https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/'/>
 	<child location='http://www.wickedshell.net/updatesite'/>
 	<child location='http://update.eclemma.org/'/>
@@ -34,5 +34,6 @@
 	<child location='http://www.jspresso.org/external/updates-snapshot/e42'/> <!-- proxy button -->
 	<child location='http://eclipse.schedenig.name'/> <!-- grep console -->
 	<child location='http://download.eclipse.org/eclipse/pde/incubator/visualization/site'/> <!-- PDE dependency visualization -->
+	<child location='http://andrei.gmxhome.de/eclipse/'/>
   </children>
 </repository>
