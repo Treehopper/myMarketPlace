@@ -14,7 +14,7 @@
 	<child location='http://m2eclipse.sonatype.org/sites/m2e-extras/'/>
 	<child location='http://localizedproperties.googlecode.com/svn/trunk/helios'/>
 	<child location='http://eclipse-cs.sf.net/update'/>
-	<child location='http://dev.cdhq.de/eclipse/word-wrap/'/>
+	<child location='http://dev.cdhq.de/eclipse/updatesite/kepler/'/>
 	<child location='http://code.inf.unibz.it/instasearch/downloads/'/>
 	<child location='http://jautodoc.sourceforge.net/update/'/>
 	<child location='http://update.stan4j.com/ide'/>
