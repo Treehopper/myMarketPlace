@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
 <meta charset=utf-8 />
-<title>This is a p2 repository</title>
+<title></title>
   
-<script>
+<script type="text/javascript">
 var FILE = 'compositeContent.xml';
 var href = $(location).attr('href');
 var pathname = href.substr(0, href.lastIndexOf('/'));
 $(document).ready(function() {
+$("body").text(pathname);
     $.get(pathname + "/" + FILE, function(text) {
         var fileDom = $(text);
         $("body").text((new XMLSerializer()).serializeToString($(text).find("children")[0]));
