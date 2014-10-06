@@ -36,6 +36,6 @@
 	<child location='http://download.eclipse.org/eclipse/pde/incubator/visualization/site'/> <!-- PDE dependency visualization -->
 	<child location='http://andrei.gmxhome.de/eclipse/'/>
 	<child location='http://treehopper.github.io/GitMine/'/>
-	<child location='http://svn.codespot.com/a/eclipselabs.org/plugination/updatesite/'/>
+	<child location='http://svn.codespot.com/a/eclipselabs.org/plugination/updatesite/'/> <!-- feature working sets -->
   </children>
 </repository>
