@@ -6,10 +6,14 @@
 <title></title>
   
 <script type="text/javascript">
-$(document).ready(function(){ 
-						   
-	$("div").css("border", "3px solid red");
-	
+var FILE = 'compositeContent.xml';
+var href = $(location).attr('href');
+var pathname = href.substr(0, href.lastIndexOf('/'));
+$(document).ready(function() {
+$.get(pathname + "/" + FILE, function(text) {
+var fileDom = $(text);
+$("body").text((new XMLSerializer()).serializeToString($(text).find("children")[0]));
+});
 });
 </script>
 </head>
