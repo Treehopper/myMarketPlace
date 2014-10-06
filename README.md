@@ -3,10 +3,10 @@ myMarketPlace
 
 Composite p2 repository for Eclipse plug-in that I choose from for almost every new Eclipse install.
 
+https://treehopper.github.io/myMarketPlace/repository/
 
 How to use?
 =============
-
 - Fork
 - Clone to $ANY_DIR
 - Eclipse->Help->Install New Software...->Add...->Local...
