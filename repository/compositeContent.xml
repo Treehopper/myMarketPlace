@@ -3,9 +3,9 @@
 <repository name='&quot;My Market Place&quot;'
     type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='2'/>
+    <property name='p2.timestamp' value='3'/>
   </properties>
-  <children size='30'>
+  <children size='31'>
 	<child location='https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite/'/>
 	<child location='http://www.wickedshell.net/updatesite'/>
 	<child location='http://update.eclemma.org/'/>
@@ -36,5 +36,6 @@
 	<child location='http://download.eclipse.org/eclipse/pde/incubator/visualization/site'/> <!-- PDE dependency visualization -->
 	<child location='http://andrei.gmxhome.de/eclipse/'/>
 	<child location='http://treehopper.github.io/GitMine/'/>
+	<child location='http://svn.codespot.com/a/eclipselabs.org/plugination/updatesite/'/> <!-- feature working sets -->
   </children>
 </repository>
