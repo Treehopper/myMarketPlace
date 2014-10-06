@@ -6,16 +6,13 @@
 <title>This is a p2 repository</title>
   
 <script>
-$.ajax({
-    type:    "GET",
-    url:     "compositeContent.xml",
-    success: function(text) {
+var FILE = 'compositeContent.xml';
+$(document).ready(function() {
+    $.get(FILE, function(text) {
+        var fileDom = $(text);
         $("body").text((new XMLSerializer()).serializeToString($(text).find("children")[0]));
-    },
-    error:   function() {
-         $("body").text("Error");
-    }
-});
+    });
+});s
 </script>
 </head>
 <body>
