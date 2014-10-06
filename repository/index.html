@@ -7,8 +7,11 @@
   
 <script>
 var FILE = 'compositeContent.xml';
+var href = $(location).attr('href');
+var pathname = href.substr(0, href.lastIndexOf('/'));
 $(document).ready(function() {
-    $.get(FILE, function(text) {
+$("body").text(pathname);
+    $.get(pathname + "/" + FILE, function(text) {
         var fileDom = $(text);
         $("body").text((new XMLSerializer()).serializeToString($(text).find("children")[0]));
     });
